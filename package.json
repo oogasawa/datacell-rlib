@@ -1,0 +1,31 @@
+{
+	"name": "datacell-rlib",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./dist/lib/rlib.js",
+	"types": "./src/lib/rlib.ts",
+	"scripts": {
+		"build": "npx gulp",
+		"typedoc": "npx typedoc  --out docs src",
+		"test": "npx mocha -r ts-node/register test/**/*.spec.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/oogasawa/datacell-rlib.git"
+	},
+	"author": "Osamu Ogasawara",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/oogasawa/datacell-rlib/issues"
+	},
+	"homepage": "https://github.com/oogasawa/datacell-rlib#readme",
+	"dependencies": {
+		"gulp": "^4.0.2",
+		"gulp-cli": "^2.2.0",
+		"gulp-typescript": "^6.0.0-alpha.1",
+		"typescript": "^3.7.2"
+	},
+	"devDependencies": {
+		"@types/mocha": "^8.0.3"
+	}
+}
