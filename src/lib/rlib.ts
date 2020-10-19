@@ -1,6 +1,6 @@
 
 
-export function seq(len, start = 0, step = 1) {
+export function seq(len: number, start: number = 0, step: number = 1): number[] {
     let result = [];
     for (let i = start; i < start + len * step; i += step) {
         result.push(i);
@@ -9,10 +9,10 @@ export function seq(len, start = 0, step = 1) {
 }
 
 
-export function rep(val, len) {
+export function rep(val: number, len: number): number[] {
     let result = [];
     for (let i = 0; i < len; i++) {
-        result.push(i);
+        result.push(val);
     }
     return result;
 }
