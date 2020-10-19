@@ -20,12 +20,19 @@
 	},
 	"homepage": "https://github.com/oogasawa/datacell-rlib#readme",
 	"dependencies": {
-		"gulp": "^4.0.2",
-		"gulp-cli": "^2.2.0",
-		"gulp-typescript": "^6.0.0-alpha.1",
-		"typescript": "^3.7.2"
+		"@types/node": "^14.11.10",
+		"log4js": "^6.3.0"
 	},
 	"devDependencies": {
-		"@types/mocha": "^8.0.3"
+		"@types/chai": "^4.2.14",
+		"@types/mocha": "^8.0.3",
+		"@types/typescript": "^2.0.0",
+		"chai": "^4.2.0",
+		"gulp": "^4.0.2",
+		"gulp-cli": "^2.3.0",
+		"gulp-typescript": "^6.0.0-alpha.1",
+		"mocha": "^8.2.0",
+		"ts-node": "^9.0.0",
+		"typescript": "^3.9.7"
 	}
 }
