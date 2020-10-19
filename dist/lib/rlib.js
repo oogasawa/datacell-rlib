@@ -24,7 +24,7 @@ exports.seq = seq;
 function rep(val, len) {
     var result = [];
     for (var i = 0; i < len; i++) {
-        result.push(i);
+        result.push(val);
     }
     return result;
 }
